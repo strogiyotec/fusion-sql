@@ -1,14 +1,13 @@
 ## SQL Frameworks
 
 Nowadays, the majority of the Java backends are using some sort of the permanent
-storage SQL being the most dominant in the market. The defacto standart to
-communicate with the SQL database is a specification called JDBC which is just a
-specification(bunche of Java interfaces) that dabase developers must implement
-in order to let the end users to talk to the Database over the wire.
+storage SQL being the most dominant in the market. The default API to
+communicate with the SQL databases is a specification called JDBC (bunche of
+Java interfaces that database developers must implement
+in order to let the end users to talk to the Database over the wire).
 The problem is that using plain JDBC is hard for a regular developer because of
-the
 
-1. All queries most be written manually
+1. All queries must be written manually
 2. The parsing of the data transferred over the wire must be done manually(using
    ResultSets)
 3. Most of the methods from JDBC API throw checked exceptions which forces
@@ -495,7 +494,10 @@ have a full control over the SQL and as a result write more optimized code
 without relying on JPA sql generation. FusionReactor supports all of these
 frameworks and can give you insides of underlying SQL queries executed by your
 code and performance metrics for each individual query.
-If you are interested, please [book a demo](https://calendly.com/fusionreactor-sales/fusionreactor-demo) with us or just [download a trial](https://www.fusion-reactor.com/select-free-trial-plan/).
+If you are interested,
+please [book a demo](https://calendly.com/fusionreactor-sales/fusionreactor-demo)
+with us or
+just [download a trial](https://www.fusion-reactor.com/select-free-trial-plan/).
 
 
 
